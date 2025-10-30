@@ -46,7 +46,7 @@ export default function App() {
     }
 
     // Validasi Deskripsi
-    if (description.trim().length > 0 && description.trim().length < 20) {
+    if (description.trim().length > 0 && description.trim().length < 10) {
       newErrors.description = 'Deskripsi minimal 20 karakter.';
     }
 
